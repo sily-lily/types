@@ -3,6 +3,7 @@ TypeScript typings for the Roblox platform. Partially handwritten and partially 
 
 ## Changelog
 - **7/14/2025** - Added core method `GetFriendStatus(player: <Player>)` to `Player` interface.
+ 				- Added core method `RequestFriendship(player: <Player>)` to `Player` interface.
 
 ## Installation
 You can install `@rbxts/types` to your Roblox-TS project using the command:
