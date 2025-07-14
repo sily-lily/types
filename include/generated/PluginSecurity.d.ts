@@ -9446,6 +9446,7 @@ interface Player extends Instance {
     readonly Name: string;
 
     GetFriendStatus(player: Player): Enum.FriendStatus;
+    RequestFriendship(player: Player): void;
 }
 /**
  * - **Tags**: NotCreatable, NotReplicated
